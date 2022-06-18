@@ -25,7 +25,7 @@ input #this is necessary if you want to see the input after the import
 
 ## The function for classify the input compunds
 
-```
+```Python
 def get_class(database, input):
     #
     # Funzione per classificare in automatico i dati in base ai parametri contenuti nel database
