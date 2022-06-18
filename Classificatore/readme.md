@@ -2,7 +2,7 @@
 
 ## Import the necessary libraries
 
-```
+```Python
 import pandas as pd
 import numpy as np
 import os.path
@@ -11,14 +11,14 @@ from tqdm import tqdm
 
 ## Load the `Database.xlsx` file where the compoun and class are stored
 
-```
+```Python
 database = pd.read_excel("Database.xlsx")
 database #this is necessary if you want to see the database after the import
 ```
 
 ## Load the `Input.xlsx` file where the compounds that are necessary to be classified.
 
-```
+```Python
 input = pd.read_excel("Input.xlsx")
 input #this is necessary if you want to see the input after the import
 ```
@@ -114,6 +114,6 @@ def get_class(database, input):
 
 ### Run the function
 
-```
+```Python
 get_class(database=database, input=input)
 ```
