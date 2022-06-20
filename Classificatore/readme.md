@@ -1,4 +1,6 @@
 # How to use this script
+## Install Python
+Install python in your machine or instll conda (easy way)
 
 ## Import the necessary libraries
 
